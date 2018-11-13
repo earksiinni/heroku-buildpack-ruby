@@ -1,3 +1,9 @@
+# GAMACY fork of Heroku Buildpack for Ruby
+
+## Notable changes from upstream
+
+- Run the compile step using `NODE_ENV=development` in order to get yarn to install devDependencies when Rails is doing asset precompilation using webpacker.
+
 # Heroku Buildpack for Ruby
 ![ruby](https://cloud.githubusercontent.com/assets/51578/13712725/3c6b3368-e793-11e5-83c1-728440111358.png)
 
